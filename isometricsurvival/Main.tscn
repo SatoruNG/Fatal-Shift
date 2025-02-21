@@ -1,16 +1,16 @@
 [gd_scene load_steps=4 format=3 uid="uid://dsa08p85frton"]
 
-[ext_resource type="PackedScene" uid="uid://b66ftkw2o0wik" path="res://player.tscn" id="1_fx3ey"]
-[ext_resource type="PackedScene" uid="uid://dum7r83nekogc" path="res://map.tscn" id="2_fjnwi"]
-[ext_resource type="PackedScene" uid="uid://cbqh45f5gw7r3" path="res://car.tscn" id="3_75fcj"]
+[ext_resource type="PackedScene" uid="uid://dum7r83nekogc" path="res://modules/map/map.tscn" id="1_6dolv"]
+[ext_resource type="PackedScene" uid="uid://cbqh45f5gw7r3" path="res://modules/car/car.tscn" id="2_03yq6"]
+[ext_resource type="PackedScene" uid="uid://b66ftkw2o0wik" path="res://modules/player/player.tscn" id="3_8jwdk"]
 
 [node name="Node2D" type="Node2D"]
 
-[node name="Map" parent="." instance=ExtResource("2_fjnwi")]
+[node name="Map" parent="." instance=ExtResource("1_6dolv")]
 
-[node name="Car" parent="." instance=ExtResource("3_75fcj")]
+[node name="Car" parent="." instance=ExtResource("2_03yq6")]
 position = Vector2(-98, -194)
 scale = Vector2(0.36, 0.36)
 
-[node name="Player" parent="." instance=ExtResource("1_fx3ey")]
+[node name="Player" parent="." instance=ExtResource("3_8jwdk")]
 position = Vector2(79, -50)

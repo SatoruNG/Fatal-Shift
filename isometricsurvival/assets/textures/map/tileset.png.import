@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dpiyrgawis3mx"
-path="res://.godot/imported/player_sphere.png-e1dfab9c9a830fb6c3390e6bfe6c9a68.ctex"
+uid="uid://uey1s62pryjr"
+path="res://.godot/imported/tileset.png-94a4572b8d9f7348ad525c9cf295c300.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://player_sphere.png"
-dest_files=["res://.godot/imported/player_sphere.png-e1dfab9c9a830fb6c3390e6bfe6c9a68.ctex"]
+source_file="res://assets/textures/map/tileset.png"
+dest_files=["res://.godot/imported/tileset.png-94a4572b8d9f7348ad525c9cf295c300.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://f2dwdt50uttu"
-path="res://.godot/imported/father.png-417988de6ec07844fbeff54df9a8730c.ctex"
+path="res://.godot/imported/father.png-fb58af5b99efa98bbcc6f78d7b5656c2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://father.png"
-dest_files=["res://.godot/imported/father.png-417988de6ec07844fbeff54df9a8730c.ctex"]
+source_file="res://assets/textures/father.png"
+dest_files=["res://.godot/imported/father.png-fb58af5b99efa98bbcc6f78d7b5656c2.ctex"]
 
 [params]
 
